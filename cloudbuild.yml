@@ -7,4 +7,4 @@ steps:
   - '-c'
   - |
     set -x && \
-    gcloud compute ssh alokwinwork@nitin-nodejs-instance-2 --zone=us-central1-a --command='/bin/sh /home/alokwinwork/pull.sh'
+    gcloud compute ssh nitin-nodejs-instance-2 --zone=us-central1-a --command='/bin/sh /home/alokwinwork/pull.sh'
