@@ -2,7 +2,7 @@ gcloud compute instance-groups unmanaged remove-instances nitin-test-prod-cicd-i
 status=$?
 if test $status -eq 0
 then
-gcloud compute ssh ubuntu@nitin-prod-vm-instance-1 --zone=asia-south1-a --command='sudo /bin/sh /home/ubuntu/pull.sh'
+gcloud compute ssh ubuntu@nitin-prod-vm-instance-1 --zone=asia-south1-a --command='sudo /bin/sh'
 status1=$?
 if test $status1 -eq 0
 then
@@ -13,7 +13,7 @@ gcloud compute instance-groups unmanaged remove-instances nitin-test-prod-cicd-i
 status2=$?
 if test $status -eq 0
 then
-gcloud compute ssh ubuntu@nitin-prod-vm-instance-2 --zone=asia-south1-a --command='sudo /bin/sh /home/ubuntu/pull.sh'
+gcloud compute ssh ubuntu@nitin-prod-vm-instance-2 --zone=asia-south1-a --command='sudo /bin/sh'
 status3=$?
 if test $status1 -eq 0
 then
@@ -24,7 +24,7 @@ gcloud compute instance-groups unmanaged remove-instances nitin-test-prod-cicd-i
 status=$?
 if test $status -eq 0
 then
-gcloud compute ssh ubuntu@nitin-prod-vm-instance-3 --zone=asia-south1-a --command='sudo /bin/sh /home/ubuntu/pull.sh'
+gcloud compute ssh ubuntu@nitin-prod-vm-instance-3 --zone=asia-south1-a --command='sudo /bin/sh'
 status1=$?
 if test $status1 -eq 0
 then
@@ -35,7 +35,7 @@ gcloud compute instance-groups unmanaged remove-instances nitin-test-prod-cicd-i
 status=$?
 if test $status -eq 0
 then
-gcloud compute ssh ubuntu@nitin-prod-vm-instance-4 --zone=asia-south1-a --command='sudo /bin/sh /home/ubuntu/pull.sh'
+gcloud compute ssh ubuntu@nitin-prod-vm-instance-4 --zone=asia-south1-a --command='sudo /bin/sh'
 status1=$?
 if test $status1 -eq 0
 then
