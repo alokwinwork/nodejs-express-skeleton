@@ -7,4 +7,4 @@ steps:
   - '-c'
   - |
     set -x && \
-    /bin/sh scripts/test1.sh
+    /bin/sh scripts/test1_test1.sh
