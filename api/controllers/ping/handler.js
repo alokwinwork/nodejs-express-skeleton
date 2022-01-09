@@ -1,5 +1,5 @@
 const ping = async (req, res) => {
-    res.apiResponse('vstpps112233 adani112233')
+    res.apiResponse('vstpps2233 adani2233')
 }
 
 module.exports = { ping }
