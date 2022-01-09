@@ -2,7 +2,7 @@ gcloud compute instance-groups unmanaged remove-instances alok-testcicd-instance
 status=$?
 if test $status -eq 0
 then
-gcloud compute ssh alokwinwork@nitin-nodejs-instance-1 --zone=us-central1-a --command='sudo /bin/sh /home/alokwinwork/pull1.sh'
+gcloud compute ssh alokwinwork@nitin-nodejs-instance-1 --zone=us-central1-a --command='sudo /bin/sh /home/alokwinwork/temp.sh'
 status1=$?
 if test $status1 -ne 0
 then
