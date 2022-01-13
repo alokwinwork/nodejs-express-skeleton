@@ -6,4 +6,5 @@ steps:
   - '-c'
   - |
     set -x && \
-    /bin/sh scripts/tempqq1.sh 
+    /bin/sh scripts/tempqq1.sh ${_TAG_NAME}
+ 
